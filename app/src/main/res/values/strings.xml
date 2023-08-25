@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SHUBHANKAR</string>
+    <string name="hello_world">HELLO WORLD</string>
+    <string name="table_layout">Table layout</string>
+    <string name="buttons">Buttons</string>
+    <string name="Views">Views</string>
+    <string name="fragment">Life Cycle</string>
+    <string name="fragmenttext">This is fragment</string>
+    <string name="layout">Layouts</string>
+    <string name="login_signup">LogIn/SignUp</string>
+</resources>
