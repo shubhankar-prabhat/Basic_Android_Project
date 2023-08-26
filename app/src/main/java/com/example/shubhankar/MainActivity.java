@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn,btn1,btn2,btn3;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("lifecycle", "onCreate: Activity created");
         Toast.makeText(getApplicationContext(), "CREATED BY SHUBHANKAR", Toast.LENGTH_LONG).show();
 
-        btn = findViewById(R.id.button);
+        Button btn = findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn1= findViewById(R.id.login);
+        Button btn1= findViewById(R.id.login);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn2 = findViewById(R.id.fragmentButton);
+        Button btn2 = findViewById(R.id.fragmentButton);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,7 +48,79 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn3 = findViewById(R.id.diffview);
+        Button btn3 = findViewById(R.id.diffview);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn4 = findViewById(R.id.button2);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn5 = findViewById(R.id.button3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn6 = findViewById(R.id.button4);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn7 = findViewById(R.id.button5);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn8 = findViewById(R.id.button6);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn9 = findViewById(R.id.button7);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn10 = findViewById(R.id.button8);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), views.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn11 = findViewById(R.id.button9);
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,22 +129,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    public void button(){
-        Intent intent = new Intent(this,layout.class);
-        startActivity(intent);
-    }
-    public void fragmentButton(){
-        Intent intent = new Intent(this,fragmentLifeCycle.class);
-        startActivity(intent);
-    }
-    public void login(){
-        Intent intent = new Intent(this,login.class);
-        startActivity(intent);
-    }
-    public void views(){
-        Intent intent = new Intent(this,views.class);
-        startActivity(intent);
-    }
-
 }
