@@ -5,24 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mahadev"
+    android:background="#06ABDD"
     tools:context=".views">
 
-<!--    <ScrollView-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:orientation="vertical"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent">-->
-<!--        -->
-<!--    </ScrollView>-->
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:layout_width="237dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
         android:background="#0BC9EA"
         android:divider="@color/black"
         android:dividerHeight="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:background="#DDA807"
+        android:gravity="center"
+        android:text="LIST VIEW"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

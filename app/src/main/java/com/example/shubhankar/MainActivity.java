@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn4 = findViewById(R.id.button2);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn5 = findViewById(R.id.button3);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn6 = findViewById(R.id.button4);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn7 = findViewById(R.id.button5);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn8 = findViewById(R.id.button6);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn9 = findViewById(R.id.button7);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn10 = findViewById(R.id.button8);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn11 = findViewById(R.id.button9);
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), views.class);
