@@ -5,9 +5,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blue_blank"
+    android:background="@color/white"
     tools:context=".login">
 
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="296dp"
+        android:layout_height="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/secure_cs" />
 
     <TextView
         android:id="@+id/textView21"
@@ -91,7 +104,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
-        android:background="#20000000"
         android:text="New User/Sign Up/Create Account"
         android:textColor="#FB1100"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -99,23 +111,6 @@
         app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText" />
-
-<!--    <com.google.android.material.textfield.TextInputEditText-->
-<!--        android:id="@+id/editTextTextEmailAddress"-->
-<!--        android:layout_width="285dp"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:layout_marginBottom="60dp"-->
-<!--        android:alpha="0.5"-->
-<!--        android:background="@color/white"-->
-<!--        android:drawableStart="@drawable/email_logo"-->
-<!--        android:ems="10"-->
-<!--        android:hint="Email"-->
-<!--        android:inputType="textEmailAddress"-->
-<!--        android:textSize="30sp"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        tools:ignore="MissingConstraints" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
