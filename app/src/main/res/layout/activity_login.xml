@@ -26,38 +26,55 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.292" />
 
-    <EditText
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="299dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="32dp"
+        android:hint="Password"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/securelogin"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="84dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/password_logo"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="285dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="44dp"
-        android:alpha="0.5"
-        android:background="@color/white"
-        android:ems="10"
+        android:layout_width="299dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="32dp"
         android:hint="Email"
-        android:textSize="30sp"
-        android:inputType="textEmailAddress"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="285dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="56dp"
-        android:alpha="0.5"
-        android:background="@color/white"
-        android:ems="10"
-        android:hint="Password"
-        android:textSize="30sp"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/securelogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="59dp"
+            android:layout_marginBottom="60dp"
+            android:background="@color/white"
+            android:drawableStart="@drawable/email_logo"
+            android:inputType="textEmailAddress"
+            />
 
+
+    </com.google.android.material.textfield.TextInputLayout>
     <Button
         android:id="@+id/securelogin"
         android:layout_width="wrap_content"
@@ -69,7 +86,7 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <Button
+    <TextView
         android:id="@+id/newuser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -82,6 +99,23 @@
         app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText" />
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:id="@+id/editTextTextEmailAddress"-->
+<!--        android:layout_width="285dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginBottom="60dp"-->
+<!--        android:alpha="0.5"-->
+<!--        android:background="@color/white"-->
+<!--        android:drawableStart="@drawable/email_logo"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Email"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

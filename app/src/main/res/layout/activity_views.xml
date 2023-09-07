@@ -35,4 +35,28 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textgridview"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:background="#DDA807"
+        android:gravity="center"
+        android:text="GRID VIEW"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listview" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="293dp"
+        android:layout_height="179dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textgridview" />
 </androidx.constraintlayout.widget.ConstraintLayout>
