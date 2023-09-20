@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), views.class);
+                Intent intent = new Intent(getApplicationContext(), recyclerview.class);
                 startActivity(intent);
             }
         });

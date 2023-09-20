@@ -21,10 +21,10 @@ public class views extends AppCompatActivity {
         ListView SimpleList = (ListView)findViewById(R.id.listview);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.listview, R.id.textView, country);
         SimpleList.setAdapter(arrayAdapter);
-//
-//        GridView Simplegrid = (GridView) findViewById(R.id.gridview);
-//        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(this, R.layout.gridview, R.id.textViewgrid, country);
-//        SimpleList.setAdapter(Adapter);
+
+        GridView Simplegrid = (GridView) findViewById(R.id.gridview);
+        ArrayAdapter<String> Adapter = new ArrayAdapter<String>(this, R.layout.gridview, R.id.textViewgrid, country);
+        SimpleList.setAdapter(Adapter);
 
     }
 
