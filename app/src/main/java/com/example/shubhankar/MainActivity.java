@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn5 = findViewById(R.id.button3);
+        Button btn5 = findViewById(R.id.torch);
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

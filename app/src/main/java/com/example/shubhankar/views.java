@@ -24,7 +24,7 @@ public class views extends AppCompatActivity {
 
         GridView Simplegrid = (GridView) findViewById(R.id.gridview);
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(this, R.layout.gridview, R.id.textViewgrid, country);
-        SimpleList.setAdapter(Adapter);
+        Simplegrid.setAdapter(Adapter);
 
     }
 
