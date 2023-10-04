@@ -75,11 +75,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn6 = findViewById(R.id.button4);
+        Button btn6 = findViewById(R.id.ImageGallery);
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), views.class);
+                Intent intent = new Intent(getApplicationContext(), ImageGallery.class);
                 startActivity(intent);
             }
         });
