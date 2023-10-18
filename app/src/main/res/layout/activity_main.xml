@@ -101,12 +101,12 @@
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/textToSpeech"
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:layout_marginTop="40dp"
         android:alpha="0.5"
-        android:text="   "
+        android:text="Text to Speech"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.855"
@@ -136,7 +136,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"
         app:layout_constraintStart_toEndOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/textToSpeech" />
 
     <Button
         android:id="@+id/button8"

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Profile">
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/contact"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Phone Number"-->
+<!--        android:paddingHorizontal="24dp"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="292dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/contactNumber"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableStart="@drawable/phone_logo"-->
+<!--            android:drawablePadding="16dp"-->
+<!--            android:inputType="number|phone" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/fullName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:hint="Full Name"-->
+<!--        android:paddingHorizontal="24dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/Enrollment"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/Enrollment"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/Enrollment">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/fullNameText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableStart=""-->
+<!--            android:drawablePadding="16dp"-->
+<!--            android:inputType="number|phone" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/editEmailAddress"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Email"-->
+<!--        android:paddingHorizontal="24dp"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="373dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/editEmail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawablePadding="16dp"-->
+<!--            android:inputType="textEmailAddress" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/Enrollment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enrollment No."-->
+<!--        android:paddingHorizontal="24dp"-->
+
+<!--        app:layout_constraintEnd_toEndOf="@+id/contact"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/contact"-->
+
+<!--        tools:layout_editor_absoluteY="127dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/EnrollmentId"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableStart="@drawable/password_logo"-->
+<!--            android:drawablePadding="16dp" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

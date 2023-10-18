@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), views.class);
+                Intent intent = new Intent(getApplicationContext(), Torch.class);
                 startActivity(intent);
             }
         });
@@ -84,11 +84,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn7 = findViewById(R.id.button5);
+        Button btn7 = findViewById(R.id.textToSpeech);
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), views.class);
+                Intent intent = new Intent(getApplicationContext(), Speech.class);
                 startActivity(intent);
             }
         });
