@@ -1,7 +1,9 @@
 package com.example.shubhankar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -93,16 +95,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btn8 = findViewById(R.id.button6);
+        Button btn8 = findViewById(R.id.gps);
         btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), views.class);
+                Intent intent = new Intent(getApplicationContext(), GpsService.class);
                 startActivity(intent);
             }
         });
 
-        Button btn9 = findViewById(R.id.button7);
+        Button btn9 = findViewById(R.id.filehandling);
         btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -128,5 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }
