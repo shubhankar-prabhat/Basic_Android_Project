@@ -8,11 +8,21 @@
     tools:context=".galleryFileHandling">
 
 
-    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <RelativeLayout android:id="@+id/rlImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal|center_vertical" android:layout_margin="20dp">
+            <RelativeLayout
+                android:id="@+id/rlImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp">
 
                 <ImageView
                     android:id="@+id/image"
@@ -24,13 +34,42 @@
 
             </RelativeLayout>
 
-            <Button android:id="@+id/btnsave" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="30dp" android:text="Save" android:textAllCaps="false" android:textColor="@color/white" android:textSize="14sp" />
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
-            <Button android:id="@+id/btnGet" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="30dp" android:text="Get Image" android:textAllCaps="false" android:textColor="@color/white" android:textSize="14sp" />
+            <Button
+                android:id="@+id/btnGet"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Get Image"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
-            <RelativeLayout android:id="@+id/rlGetImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal|center_vertical" android:layout_margin="20dp">
+            <RelativeLayout
+                android:id="@+id/rlGetImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp">
 
-                <ImageView android:id="@+id/imageGet" android:layout_width="200dp" android:layout_height="200dp" android:layout_centerInParent="true" android:adjustViewBounds="true" android:contentDescription="@null" />
+                <ImageView
+                    android:id="@+id/imageGet"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null" />
 
             </RelativeLayout>
 

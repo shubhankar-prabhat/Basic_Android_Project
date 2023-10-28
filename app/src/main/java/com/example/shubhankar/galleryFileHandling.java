@@ -36,7 +36,7 @@ public class galleryFileHandling extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery_file_handling);
 
-        url = "https://patelspin.com/patel_spin_app/images/photo/1693830750611.png&quot";
+        url = "https://patelspin.com/patel_spin_app/images/photo/1693830750611.png";
         image = findViewById(R.id.image);
         btnsave = findViewById(R.id.btnsave);
         rlImage = findViewById(R.id.rlImage);
