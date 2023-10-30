@@ -23,9 +23,14 @@
         android:theme="@style/Theme.SHUBHANKAR"
         tools:targetApi="31">
         <activity
+            android:name=".CGPA_Output"
+            android:exported="false" />
+        <activity
+            android:name=".CGPA_Calculator"
+            android:exported="false" />
+        <activity
             android:name=".studentprofile"
             android:exported="false" />
-
         <activity
             android:name=".galleryFileHandling"
             android:exported="false" />

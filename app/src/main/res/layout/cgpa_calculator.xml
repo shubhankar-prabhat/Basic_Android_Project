@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CGPA_Calculator">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1243dp"
+        android:layout_height="1268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ftext">
+
+        <TextView
+            android:id="@+id/HS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 1"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l3"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/ftext">
+
+        <TextView
+            android:id="@+id/HS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 2"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ftext">
+
+        <TextView
+            android:id="@+id/HS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 3"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+
+        <TextView
+            android:id="@+id/HS4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:text="SUBJECT 4" />
+
+        <EditText
+            android:id="@+id/cr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l6"
+        app:layout_constraintStart_toEndOf="@+id/l4"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+
+        <TextView
+            android:id="@+id/HS5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:text="SUBJECT 5" />
+
+        <EditText
+            android:id="@+id/cr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+
+        <TextView
+            android:id="@+id/HS6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:text="SUBJECT 6" />
+
+        <EditText
+            android:id="@+id/cr6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <TextView
+            android:id="@+id/HS7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+
+
+            android:text="SUBJECT 7" />
+
+        <EditText
+            android:id="@+id/cr7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l9"
+        app:layout_constraintStart_toEndOf="@+id/l7"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <TextView
+            android:id="@+id/HS8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:text="SUBJECT 8" />
+
+        <EditText
+            android:id="@+id/cr8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Max Marks"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Obtained Marks"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <TextView
+            android:id="@+id/HS9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:text="SUBJECT 9" />
+
+        <EditText
+            android:id="@+id/cr9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:hint="Max Marks"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/om9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:hint="Obtained Marks"
+            android:inputType="number"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="CGPA CALCULATOR"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:text="SUBMIT"
+        android:textColor="#000000"
+        app:backgroundTint="#E6E6E6"
+        app:layout_constraintEnd_toStartOf="@+id/buttonmain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                                            "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit" />
+
+    <Button
+        android:id="@+id/buttonmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="GRADES"
+        android:textColor="#000000"
+        app:backgroundTint="#E6E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

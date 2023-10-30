@@ -45,10 +45,10 @@ public class studentprofile extends AppCompatActivity {
                         text_Marks.getText().toString());
 
                 if(isinserted == true){
-//                        Toast.makeText(MainActivity.this, "Data Inserted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data Inserted", Toast.LENGTH_SHORT).show();
                 }
                 else{
-//                        Toast.makeText(MainActivity.this, "Data not Inserted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data not Inserted", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -89,10 +89,10 @@ public class studentprofile extends AppCompatActivity {
                         text_Surname.getText().toString(),text_Marks.getText().toString());
 
                 if(isUpdate == true){
-//                        Toast.makeText(MainActivity.this, "Data Updated", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data Updated", Toast.LENGTH_SHORT).show();
                 }
                 else{
-//                        Toast.makeText(MainActivity.this, "Data not Updated", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data not Updated", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -105,10 +105,10 @@ public class studentprofile extends AppCompatActivity {
                 Integer deletedRow = myDb.deleteData(text_ID.getText().toString());
 
                 if(deletedRow>0){
-//                        Toast.makeText(MainActivity.this, "Data Deleted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data Deleted", Toast.LENGTH_SHORT).show();
                 }
                 else{
-//                        Toast.makeText(MainActivity.this, "Data not Deleted", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data not Deleted", Toast.LENGTH_SHORT).show();
                 }
 
             }

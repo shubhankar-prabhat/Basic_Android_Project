@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CGPA_Output">
+
+    <ImageView
+        android:layout_width="1082dp"
+        android:layout_height="1193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ftext3">
+
+        <TextView
+            android:id="@+id/HS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 1"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l3"
+        app:layout_constraintStart_toEndOf="@+id/l1"
+        app:layout_constraintTop_toBottomOf="@+id/ftext3">
+
+        <TextView
+            android:id="@+id/HS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 2"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ftext3">
+
+        <TextView
+            android:id="@+id/HS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 3"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+
+        <TextView
+            android:id="@+id/HS4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 4"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l6"
+        app:layout_constraintStart_toEndOf="@+id/l4"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+
+        <TextView
+            android:id="@+id/HS5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 5"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2">
+
+        <TextView
+            android:id="@+id/HS6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 6"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <TextView
+            android:id="@+id/HS7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 7"
+
+
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l9"
+        app:layout_constraintStart_toEndOf="@+id/l7"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <TextView
+            android:id="@+id/HS8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 8"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5">
+
+        <TextView
+            android:id="@+id/HS9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 9"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8">
+
+        <TextView
+            android:id="@+id/HS10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 10"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/l12"
+        app:layout_constraintStart_toEndOf="@+id/l10"
+        app:layout_constraintTop_toBottomOf="@+id/l8">
+
+        <TextView
+            android:id="@+id/HS11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 11"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8">
+
+        <TextView
+            android:id="@+id/HS12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SUBJECT 12"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/cr12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Credits"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/mm12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Grade"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ftext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="CGPA CALCULATOR"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSubmit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:text="SUBMIT"
+        android:textColor="#000000"
+        app:backgroundTint="#E6E6E6"
+        app:layout_constraintEnd_toStartOf="@+id/buttonend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l11" />
+
+    <TextView
+        android:id="@+id/answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                                            "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubmit3" />
+
+    <Button
+        android:id="@+id/buttonend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="MARKS"
+        android:textColor="#000000"
+        app:backgroundTint="#E6E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
