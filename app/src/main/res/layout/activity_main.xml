@@ -65,8 +65,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
+        android:layout_width="116dp"
+        android:layout_height="64dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="32dp"
         android:alpha="0.5"
@@ -77,8 +77,8 @@
 
     <Button
         android:id="@+id/torch"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
+        android:layout_width="127dp"
+        android:layout_height="75dp"
         android:layout_marginTop="32dp"
         android:alpha="0.5"
         android:text="Torch"
@@ -90,8 +90,8 @@
 
     <Button
         android:id="@+id/ImageGallery"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
+        android:layout_width="114dp"
+        android:layout_height="64dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="40dp"
         android:alpha="0.5"
@@ -102,8 +102,8 @@
 
     <Button
         android:id="@+id/textToSpeech"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
         android:layout_marginTop="40dp"
         android:alpha="0.5"
         android:text="Text to Speech"
@@ -140,9 +140,9 @@
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="28dp"
+        android:layout_width="126dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="36dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="32dp"
         android:alpha="0.5"
@@ -155,17 +155,44 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
+        android:layout_width="134dp"
+        android:layout_height="76dp"
         android:layout_marginTop="40dp"
         android:alpha="0.5"
         android:text="CGPA calculator"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintHorizontal_bias="0.797"
         app:layout_constraintStart_toEndOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/filehandling"
         app:layout_constraintVertical_bias="0.0" />
 
+    <Button
+        android:id="@+id/weatherApi"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+        android:alpha="0.5"
+        android:text="Weather API"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <Button
+        android:id="@+id/horoscopeApi"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+        android:alpha="0.5"
+        android:text="Horoscope API"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

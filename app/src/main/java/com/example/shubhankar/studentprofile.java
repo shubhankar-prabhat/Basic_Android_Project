@@ -40,7 +40,9 @@ public class studentprofile extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                boolean isinserted =  myDb.insertData(text_Name.getText().toString(),
+                boolean isinserted =  myDb.insertData(
+                        text_ID.getText().toString(),
+                        text_Name.getText().toString(),
                         text_Surname.getText().toString(),
                         text_Marks.getText().toString());
 

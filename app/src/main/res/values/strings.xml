@@ -8,4 +8,5 @@
     <string name="fragmenttext">This is fragment</string>
     <string name="layout">Layouts</string>
     <string name="login_signup">LogIn/SignUp</string>
+    <string name="no_internet_connection">NO_Internet</string>
 </resources>
