@@ -27,7 +27,7 @@ public class studentprofile extends AppCompatActivity {
         btn_insert_data=(Button) findViewById(R.id.btn_insert);
 
         text_Name=(EditText) findViewById(R.id.editTextName);
-        text_Surname=(EditText) findViewById(R.id.editTextSurName);
+        text_Surname=(EditText) findViewById(R.id.editTextSubject);
         text_Marks=(EditText) findViewById(R.id.editTextMarks);
         btn_dataView=(Button) findViewById(R.id.btn_ViewAll);
 
