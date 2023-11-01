@@ -1,6 +1,8 @@
 package com.example.shubhankar;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
@@ -24,11 +26,12 @@ public class HoroscopeAPI extends AppCompatActivity {
     public static String apiUrl = "";
     TextView txtResponse;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.horoscope_api);
-        txtResponse = findViewById(R.id.weather);
+        txtResponse = findViewById(R.id.txtResponse);
         callApi();
     }
 
@@ -94,7 +97,7 @@ public class HoroscopeAPI extends AppCompatActivity {
                 @Override
                 public Map<String, String> getHeaders() {
                     Map<String, String> headers = new HashMap<>();
-                    String credentials = "eb832bd6c3c58285ee7eea3818d35b39";
+                    String credentials = "626450:eb832bd6c3c58285ee7eea3818d35b39";
                     String auth = "Basic " + Base64.encodeToString(credentials.getBytes(), Base64.NO_WRAP);
                     headers.put("Authorization", auth);
                     return headers;

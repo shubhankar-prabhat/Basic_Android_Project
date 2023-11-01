@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn12 = findViewById(R.id.weatherApi);
-        btn11.setOnClickListener(new View.OnClickListener() {
+        btn12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), weatherAPI.class);
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button btn13 = findViewById(R.id.horoscopeApi);
-        btn11.setOnClickListener(new View.OnClickListener() {
+        btn13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), HoroscopeAPI.class);
