@@ -52,7 +52,7 @@ public class whether extends AppCompatActivity {
                 } catch (JSONException e) {
                     throw new RuntimeException(e);
                 }
-                //Log.d("response",response); }
+                Log.d("response", String.valueOf(response));
             }
         }, new Response.ErrorListener() {
             @Override
@@ -60,7 +60,6 @@ public class whether extends AppCompatActivity {
                 resultTextView.setText("Error: " + error.toString());
             }
         });
-        // Add the request to the RequestQueue.
             queue.add(jsonObjectRequest);
 
         }

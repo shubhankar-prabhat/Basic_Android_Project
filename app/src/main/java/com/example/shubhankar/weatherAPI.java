@@ -1,14 +1,11 @@
 package com.example.shubhankar;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class weatherAPI extends AppCompatActivity {
 
@@ -22,7 +19,6 @@ public class weatherAPI extends AppCompatActivity {
 
         ed1 = findViewById(R.id.country);
         bt1 = findViewById(R.id.search);
-
 
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
